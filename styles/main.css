@@ -1,0 +1,69 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+}
+
+body {
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 7px;
+}
+
+/* Navigation Bar */
+.left-nav {
+  float: left;
+}
+
+.right-nav {
+  float: right;
+}
+
+#sign-in {
+  border: thin solid cyan;
+  padding: 4px 8px;
+  position: relative;
+  bottom: 5px;
+  background-color: cyan;
+  color: white;
+}
+
+/* Search Bar */
+.content {
+  padding: 30% 25%;
+  display: inline-grid;
+  justify-content: space-around;
+}
+
+.logo {
+
+}
+
+.search {
+
+}
+
+/* Footer */
+.footer {
+  margin-bottom: 0;
+}
+
+.about {
+
+}
+
+.l-footer {
+  float: left;
+}
+
+.r-footer {
+  float: right;
+}
