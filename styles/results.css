@@ -1,0 +1,111 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 7px;
+}
+
+body {
+  position: relative;
+  width: 1000px;
+  height: 1500px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  display: block;
+  width: 1000px;
+  padding: 10px 0;
+  background-color: white;
+}
+
+.logo {
+  display: block;
+  width: 50px;
+  float: left;
+}
+
+.search {
+  display: block;
+  margin-left: 100px;
+  width: 500px
+}
+
+.account {
+  display: block;
+  float: right;
+  width: 120px;
+
+}
+
+.align {
+  margin-left: 100px;
+  width: 500px;
+}
+
+.tabs {
+  margin-top: 70px;
+
+
+}
+
+.results-info {
+  font-size: 75%;
+  color: grey;
+
+}
+
+.first-result {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.related-results {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table {
+  border: grey solid thin;
+  padding: 20px;
+}
+
+td {
+  border-bottom: solid 1px grey;
+}
+
+.feedback-footer {
+  text-align: right;
+}
+
+.other-results  {
+
+}
+
+.other-searches  {
+
+}
+
+#results-others li {
+  display: list-item;
+}
+
+.pages {
+  margin-top: 30px;
+  margin-left: 20%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: block;
+}
